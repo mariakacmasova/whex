@@ -4,12 +4,12 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-size: "200k"
-        max-file: "10"
+        max-size: "600k"
+        max-file: "60"
     image: "aldinokemal2104/go-whatsapp-web-multidevice:latest"
     build:
       context: .
       dockerfile: ./docker/golang.Dockerfile
     restart: 'always'
     ports:
-      - "3999:3999"
+      - "4001:4001"
