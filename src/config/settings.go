@@ -7,8 +7,8 @@ import (
 
 var (
 	AppVersion             = "v4.0.0"
-	AppPort                = "3000"
-	AppDebug               = false
+	AppPort                = "3999"
+	AppDebug               = true
 	AppOs                  = fmt.Sprintf("AldinoKemal")
 	AppPlatform            = waProto.DeviceProps_PlatformType(1)
 	AppBasicAuthCredential string
