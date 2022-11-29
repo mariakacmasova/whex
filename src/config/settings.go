@@ -7,7 +7,7 @@ import (
 
 var (
 	AppVersion             = "v4.0.0"
-	AppPort                = "4001"
+	AppPort                = "5001"
 	AppDebug               = true
 	AppOs                  = fmt.Sprintf("AldinoKemal")
 	AppPlatform            = waProto.DeviceProps_PlatformType(1)
@@ -21,7 +21,7 @@ var (
 
 	WhatsappLogLevel            = "ERROR"
 	WhatsappAutoReplyMessage    string
-	WhatsappAutoReplyWebhook    = "https://n8n-production-e722.up.railway.app/webhook-test/whauto"
+	WhatsappAutoReplyWebhook    = "https://events.hookdeck.com/e/src_iuL6DUtZwqu4"
 	WhatsappSettingMaxFileSize  int64 = 50000000  // 50MB
 	WhatsappSettingMaxVideoSize int64 = 100000000 // 100MB
 )
