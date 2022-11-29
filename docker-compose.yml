@@ -12,4 +12,4 @@ services:
       dockerfile: ./docker/golang.Dockerfile
     restart: 'always'
     ports:
-      - "4001:4001"
+      - "5001:5001"
